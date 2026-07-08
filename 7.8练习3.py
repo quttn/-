@@ -1,0 +1,11 @@
+import numpy as np
+arr_1 = np.random.randint(0,10,(2,3))
+arr_2 = np.random.randint(0,10,(2,3))
+print(arr_1)
+print(arr_2)
+print(arr_1 @ arr_2.T)
+print(arr_1 * arr_2)
+arr_3 = np.array([[1,2],[3,4]])
+print(np.sum(arr_3,axis=0))
+print(np.sum(arr_3,axis=1))
+print(arr_3.mean())
